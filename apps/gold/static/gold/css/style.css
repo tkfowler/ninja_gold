@@ -1,0 +1,42 @@
+body{
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1{
+  display: block;
+  font-size: 12pt;
+}
+
+p{
+  font-size: 10pt;
+}
+
+
+.box{
+  display: inline-block;
+  border: 1px solid black;
+  margin-right: 10px;
+  width: 185px;
+  height: 150px;
+  text-align: center;
+}
+
+.activities{
+  height: 250px;
+  border: 1px solid black;
+  overflow: scroll;
+  padding-left: 10px;
+}
+
+#win{
+  color: green;
+}
+
+#lose{
+  color: red;
+}
+
+form{
+  margin-top: 10px;
+}
